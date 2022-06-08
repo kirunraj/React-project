@@ -1,0 +1,42 @@
+.Container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layout{
+    width: 500px;
+}
+
+.layout .form-control{
+    border: 0px solid #fff;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+.layout .form-control:focus{
+    box-shadow: none;
+}
+.layout .form-floating>.form-control:focus~label,.layout .form-floating>.form-control:not(:placeholder-shown)~label{
+    padding-top:9px;
+   margin-left:30px;
+    width:100%;
+}
+
+.layout .form-floating>.form-control:focus~label{
+    color:#f57311;
+    opacity:1;
+     font-size: 15px;
+}
+.layout button{
+    margin-top: 20px;
+    background-color: #f57311;
+    color: #fff;
+
+}
+.layout button:hover{
+    color: #fff;
+    background-color:#b95407 ;
+}

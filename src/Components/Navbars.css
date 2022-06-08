@@ -1,0 +1,63 @@
+.right{
+    justify-content: right;
+}
+.bnav{
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(https://www.outburstweb.com/sites/all/themes/outburstweb/assets/img/mountain-bg.jpg);
+}
+.s1{
+    color: #fff !important;
+}
+.bimg{
+    background-image: url(https://www.outburstweb.com/sites/all/themes/outburstweb/assets/img/mountain-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    text-align: center;
+    margin-top: 36px;
+    
+}
+.top h1{
+   font-size: 70px;
+   color: #fff;
+  
+}
+.Text{
+    color:#f57311 ;
+}
+.top p{
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+}
+.ptext{
+    font-size: 20px;
+}
+.cal{
+    width: 100%;
+   
+}
+.icons1{
+    color: #fff;
+    position: absolute;
+    margin-left: -26px;
+}
+.icons1:hover{
+    margin-top: 5px;
+    transition: 1s;
+}
+@media screen and (max-width:900px){
+    .top h1{
+        font-size: 40px;
+        }
+        .top p{
+           padding:40px ;
+            font-size: 15px;
+        }
+    }

@@ -1,0 +1,88 @@
+/* .x1{
+    display: flex;
+    justify-content: center;
+    align-items: centeheight: 500px;
+    width: 100%;
+} */
+.x1{
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.mobile{
+    width: 157px;
+    background: #f57311;
+    height: 139px;
+    margin-left: 71px;
+    border-radius: 219px;
+    margin-bottom: 12px;
+    color: #fff;
+    box-shadow: 0 0 0 8px rgb(248 148 6 / 50%);
+}
+.k1{
+    position: inherit;
+    padding-top: 30px;
+}
+.mobile:hover{
+    background:#fff;
+    color: #f57311; 
+
+}
+.mobile:hover .icons{
+    animation: ami 1s ;
+
+}
+@keyframes ami{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.u1 hr{
+        border-top: 6px solid #f57311;
+         width: 10%;
+        opacity: 1;
+}
+.mobile.icons{
+    color: white; 
+    position: absolute;
+    margin-left:  0px;
+    
+}
+
+.mobile span{
+    
+    margin-top: 43px;
+    position: absolute;
+    margin-left: -23px;
+}
+.b1{
+    margin-bottom: 29px;
+}
+.m1{
+    margin-left: 71px;
+}
+.scroll{
+    background-image: url(https://www.outburstweb.com/sites/all/themes/outburstweb/assets/img/img_scroll.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:990px) {
+    .m1{
+        margin-left:95px ;
+    }
+    .b1{
+        margin-bottom: 0px;
+    }
+    
+}
